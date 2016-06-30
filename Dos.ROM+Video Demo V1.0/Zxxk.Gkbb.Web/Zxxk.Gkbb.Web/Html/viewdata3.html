@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<title>高考必备-视频详情页</title>
+<link rel="stylesheet" type="text/css" href="../Content/css.css">
+<script type="text/javascript" src="../Scripts/Js/jq-1.0.0.js"></script>
+</head>
+<body class="viewport wt-bg">
+<header>
+	<div class="top">
+    	<span>视频详情</span>
+    	<a class="lt-pst bk-btn" href="/Home/Index">&nbsp;</a>
+    </div>
+</header>
+<section>
+    <div class="main-cont">
+        <div id="dvvideo" class="play-area">
+            <input type="hidden" value="http://video.zxxk.com/shitibao/6e73df0ab61ff6ed96e69863b9f4f416/6e73df0ab61ff6ed96e69863b9f4f416.mp4" id="videopath">
+            <img src="http://support.gkbb.zxxk.com/UpLoad/VideoIcon/2016/05/5835_b.jpg"/>
+            <i class="play-icon">&nbsp;</i>
+        </div>
+        <div id="videodv"></div>
+        <div class="title">2015年高考英语北京卷-第21题</div>
+        <div class="gy-sep">&nbsp;</div>
+        <div>
+            <ul class="clearfix tab-tit">
+                <li class="on"><span>视频详情</span></li>
+                <li><span>视频列表</span></li>
+            </ul>
+            <div class="tab-cont">
+            	<div class="tab-mod">
+                	<p class="sp-det"><span>2015年高考英语北京卷-第21题</span></p>
+                </div>
+                <div class="tab-mod" style="display:none;">
+                	<ul class="sp-list">
+                    	<li class="on">2015年高考英语北京卷-第22题</li>
+                        <li>2015年高考英语北京卷-第23题</li>
+                        <li>2015年高考英语北京卷-第24题</li>
+                        <li>2015年高考英语北京卷-第25题</li>
+                        <li>2015年高考英语北京卷-第26题</li>
+                        <li>2015年高考英语北京卷-第27题</li>
+                        <li>2015年高考英语北京卷-第28题</li>
+                        <li>2015年高考英语北京卷-第29题</li>
+                        <li>2015年高考英语北京卷-第30题</li>
+                        <li>2015年高考英语北京卷-第31题</li>
+                        <li>2015年高考英语北京卷-第32题</li>
+                        <li>2015年高考英语北京卷-第33题</li>
+                        <li>2015年高考英语北京卷-第34题</li>
+                        <li>2015年高考英语北京卷-第35题</li>
+                         <li>2015年高考英语北京卷-第36-55题</li>
+                          <li>2015年高考英语北京卷-第63-66题</li>
+                           <li>2015年高考英语北京卷-第67-70题</li>
+                            <li>2015年高考英语北京卷-第71-75题</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+$(function(){
+	
+	 $(".tab-tit li").click(function ()
+    {
+        $(this).addClass("on").siblings().removeClass("on");
+        $(this).parent("ul").next(".tab-cont").find(".tab-mod:eq(" + $(this).index() + ")").show().siblings().hide();
+    });
+    var videoid = "";
+    //初始层点击事件
+    $(".play-icon").click(function () {
+        $("#dvvideo").unbind();
+        $("#dvvideo").click(function () {
+            $(this).css("display", "none");
+
+            $("#videodv").html(" <video src='" + $("#videopath").val() + "' controls='controls' style='width: 100%' id='video'><ideo>").trigger("create");
+            var myVideo = document.getElementById("video");
+            myVideo.play();
+            $.ajax({
+                url: "../../Support/JsonVideoAPI.aspx",
+                type: "get",
+                data: { r: Math.random(), playVideo: videoid, UserID: $.cookie('username') },
+                succecc: function (data) {
+
+                }
+            });
+        });
+    });
+})
+
+
+
+</script>
+</body>
+</html>

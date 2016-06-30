@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+    <title>高考必备-视频详情页</title>
+    <link rel="stylesheet" type="text/css" href="../Content/css.css">
+    <script type="text/javascript" src="../Scripts/Js/jq-1.0.0.js"></script>
+</head>
+<body class="viewport wt-bg">
+    <header>
+	<div class="top">
+    	<span>视频详情</span>
+    	<a class="lt-pst bk-btn" href="/Home/Index">&nbsp;</a>
+    </div>
+</header>
+    <section>
+    <div class="main-cont">
+        <div id="dvvideo" class="play-area">
+            <input type="hidden" value="http://video.zxxk.com/shitibao/40e6b2de3ef74e9d9c2ca7cf173f1a06/40e6b2de3ef74e9d9c2ca7cf173f1a06.mp4" id="videopath">
+            <img src="http://support.gkbb.zxxk.com/UpLoad/VideoIcon/2016/05/3734_b.jpg"/>
+            <i class="play-icon">&nbsp;</i>
+        </div>
+        <div id="videodv"></div>
+        <div class="title">2015年高考化学北京卷-第1题</div>
+        <div class="gy-sep">&nbsp;</div>
+        <div>
+            <ul class="clearfix tab-tit">
+                <li class="on"><span>视频详情</span></li>
+                <li><span>视频列表</span></li>
+            </ul>
+            <div class="tab-cont">
+            	<div class="tab-mod">
+                	<p class="sp-det">2015年高考化学北京卷-第1题</p>
+                </div>
+                <div class="tab-mod" style="display:none;">
+                	<ul class="sp-list">
+                    	<li class="on">2015年高考化学北京卷-第1题</li>
+                        <li>2015年高考化学北京卷-第2题</li>
+                        <li>2015年高考化学北京卷-第3题</li>
+                        <li>2015年高考化学北京卷-第4题</li>
+                         <li>2015年高考化学北京卷-第5题</li>
+                          <li>2015年高考化学北京卷-第6题</li>
+                           <li>2015年高考化学北京卷-第7题</li>
+                            <li>2015年高考化学北京卷-第8题</li>
+                             <li>2015年高考化学北京卷-第9题</li>
+                              <li>2015年高考化学北京卷-第10题</li>
+                               <li>2015年高考化学北京卷-第11题</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+        $(function () {
+
+            $(".tab-tit li").click(function () {
+                $(this).addClass("on").siblings().removeClass("on");
+                $(this).parent("ul").next(".tab-cont").find(".tab-mod:eq(" + $(this).index() + ")").show().siblings().hide();
+            });
+            var videoid = "";
+            //初始层点击事件
+            $(".play-icon").click(function () {
+                $("#dvvideo").unbind();
+                $("#dvvideo").click(function () {
+                    $(this).css("display", "none");
+
+                    $("#videodv").html(" <video src='" + $("#videopath").val() + "' controls='controls' style='width: 100%' id='video'><ideo>").trigger("create");
+                    var myVideo = document.getElementById("video");
+                    myVideo.play();
+                    $.ajax({
+                        url: "../../Support/JsonVideoAPI.aspx",
+                        type: "get",
+                        data: { r: Math.random(), playVideo: videoid, UserID: $.cookie('username') },
+                        succecc: function (data) {
+
+                        }
+                    });
+                });
+            });
+        })
+
+
+
+    </script>
+</body>
+</html>

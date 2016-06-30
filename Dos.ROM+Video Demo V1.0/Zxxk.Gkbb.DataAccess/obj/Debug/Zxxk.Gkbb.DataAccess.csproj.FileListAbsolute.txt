@@ -1,0 +1,9 @@
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\bin\Debug\Zxxk.Gkbb.DataAccess.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\bin\Debug\Zxxk.Gkbb.DataAccess.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\obj\Debug\Zxxk.Gkbb.DataAccess.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\obj\Debug\Zxxk.Gkbb.DataAccess.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\bin\Debug\Dos.Common.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\bin\Debug\Dos.ORM.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\bin\Debug\Zxxk.Gkbb.Model.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\bin\Debug\Zxxk.Gkbb.Model.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.DataAccess\obj\Debug\Zxxk.Gkbb.DataAccess.csprojResolveAssemblyReference.cache

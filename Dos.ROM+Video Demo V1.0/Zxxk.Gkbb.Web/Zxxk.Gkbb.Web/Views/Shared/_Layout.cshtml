@@ -1,0 +1,21 @@
+﻿@using Zxxk.Gkbb.Common
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    
+    <link rel="stylesheet" type="text/css" href=@ContentMap.CssContent("Content/css.css")>
+    <link rel="stylesheet" type="text/css" href=@ContentMap.CssContent("Content/swiper.min.css")>
+    <script type="text/javascript" src=@ContentMap.JsContent("Scripts/Js/jq-1.0.0.js")></script>
+    <script type="text/javascript" src=@ContentMap.JsContent("Scripts/Js/jquery.touchSlider-1.0.0.js")></script>
+    <script type="text/javascript" src=@ContentMap.JsContent("Scripts/Js/swiper.min-1.0.0.js")></script>
+    <script type="text/javascript" src=@ContentMap.JsContent("Scripts/Js/base-1.0.0.js")></script>
+    @RenderSection("css", false)
+</head>
+<body>
+    @RenderBody()
+    @RenderSection("scripts", required: false)
+</body>
+</html>

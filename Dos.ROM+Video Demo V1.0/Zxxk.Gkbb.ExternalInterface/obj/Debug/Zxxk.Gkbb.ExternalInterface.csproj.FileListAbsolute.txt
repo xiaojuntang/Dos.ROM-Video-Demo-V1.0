@@ -1,0 +1,12 @@
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Zxxk.Gkbb.ExternalInterface.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Zxxk.Gkbb.ExternalInterface.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\obj\Debug\Zxxk.Gkbb.ExternalInterface.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\obj\Debug\Zxxk.Gkbb.ExternalInterface.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Zxxk.Gkbb.Common.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Zxxk.Gkbb.Common.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\obj\Debug\Zxxk.Gkbb.ExternalInterface.csprojResolveAssemblyReference.cache
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Zxxk.Gkbb.Model.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Zxxk.Gkbb.Model.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Dos.ORM.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Newtonsoft.Json.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.ExternalInterface\bin\Debug\Newtonsoft.Json.xml

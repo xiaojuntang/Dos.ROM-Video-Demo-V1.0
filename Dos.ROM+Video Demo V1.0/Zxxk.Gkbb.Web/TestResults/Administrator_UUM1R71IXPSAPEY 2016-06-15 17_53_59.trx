@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d98a924f-25ff-41a8-b330-59078596b2df" name="Administrator@UUM1R71IXPSAPEY 2016-06-15 17:53:59" runUser="UUM1R71IXPSAPEY\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="d1175858-48da-4a0e-addb-e0e174b72d3a">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="E:\高考必备\src\高考必备\Zxxk.Gkbb.Web\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Administrator_UUM1R71IXPSAPEY 2016-06-15 17_53_59">
+      <DeploymentItem filename="E:\高考必备\src\高考必备\Zxxk.Gkbb.Web\Zxxk.Gkbb.Web\Lib\Dos.ORM.dll" />
+      <DeploymentItem filename="E:\高考必备\src\高考必备\Zxxk.Gkbb.Web\Zxxk.Gkbb.Web\Lib\Dos.Common.dll" />
+      <DeploymentItem filename="E:\高考必备\src\高考必备\Zxxk.Gkbb.BusinessLayer\bin\Debug\Zxxk.Gkbb.BusinessLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-06-15T17:53:59.9590586+08:00" queuing="2016-06-15T17:54:00.7591044+08:00" start="2016-06-15T17:54:00.8171077+08:00" finish="2016-06-15T17:54:11.5737229+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="UUM1R71IXPSAPEY" outcome="Error" timestamp="2016-06-15T17:54:11.5727229+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\高考必备\src\高考必备\zxxk.gkbb.testproject\bin\debug\zxxk.gkbb.testproject.dll" id="8d70f5bd-da3e-cb6d-78ae-0ad5023288ae">
+      <Execution id="fa242d00-5ab9-4210-863d-fb92c5d0fec9" />
+      <TestMethod codeBase="E:/高考必备/src/高考必备/Zxxk.Gkbb.TestProject/bin/Debug/Zxxk.Gkbb.TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Zxxk.Gkbb.TestProject.UnitTest1, Zxxk.Gkbb.TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8d70f5bd-da3e-cb6d-78ae-0ad5023288ae" executionId="fa242d00-5ab9-4210-863d-fb92c5d0fec9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fa242d00-5ab9-4210-863d-fb92c5d0fec9" testId="8d70f5bd-da3e-cb6d-78ae-0ad5023288ae" testName="TestMethod1" computerName="UUM1R71IXPSAPEY" duration="00:00:10.7006120" startTime="2016-06-15T17:54:00.8731109+08:00" endTime="2016-06-15T17:54:11.5737229+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa242d00-5ab9-4210-863d-fb92c5d0fec9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

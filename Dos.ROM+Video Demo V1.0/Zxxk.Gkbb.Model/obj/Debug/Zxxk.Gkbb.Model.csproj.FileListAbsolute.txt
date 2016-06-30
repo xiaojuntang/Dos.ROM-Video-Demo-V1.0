@@ -1,0 +1,5 @@
+E:\高考必备\src\高考必备\Zxxk.Gkbb.Model\bin\Debug\Zxxk.Gkbb.Model.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.Model\bin\Debug\Zxxk.Gkbb.Model.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.Model\obj\Debug\Zxxk.Gkbb.Model.dll
+E:\高考必备\src\高考必备\Zxxk.Gkbb.Model\obj\Debug\Zxxk.Gkbb.Model.pdb
+E:\高考必备\src\高考必备\Zxxk.Gkbb.Model\bin\Debug\Dos.ORM.dll

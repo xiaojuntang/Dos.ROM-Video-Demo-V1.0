@@ -1,0 +1,42 @@
+2016-06-15 15:28:33
+Text:	INSERT INTO [TestTable] ([Name]) VALUES (@Name1);select scope_identity()	
+Parameters:
+@Name1[String] = KKKK
+
+
+-----------------------------------------------------------------------------
+2016-06-15 17:48:05
+Text:	INSERT INTO [TestTable] ([Name]) VALUES (@Name1);select scope_identity()	
+Parameters:
+@Name1[String] = KKKK
+
+
+-----------------------------------------------------------------------------
+2016-06-15 17:48:28
+Text:	INSERT INTO [TestTable] ([Name]) VALUES (@Name1);select scope_identity()	
+Parameters:
+@Name1[String] = KKKK
+
+
+-----------------------------------------------------------------------------
+2016-06-15 17:48:59
+Text:	INSERT INTO [TestTable] ([Name]) VALUES (@Name1);select scope_identity()	
+Parameters:
+@Name1[String] = KKKK
+
+
+-----------------------------------------------------------------------------
+2016-06-15 17:50:34
+Text:	INSERT INTO [TestTable] ([Name]) VALUES (@Name1);select scope_identity()	
+Parameters:
+@Name1[String] = KKKK
+
+
+-----------------------------------------------------------------------------
+2016-06-15 17:51:06
+Text:	INSERT INTO [TestTable] ([Name]) VALUES (@Name1);select scope_identity()	
+Parameters:
+@Name1[String] = KKKK
+
+
+-----------------------------------------------------------------------------

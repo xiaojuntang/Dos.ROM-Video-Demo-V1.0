@@ -1,0 +1,7 @@
+2016-06-16 09:45:43
+Text:	INSERT INTO [TestTable] ([Name]) VALUES (@Name1);select scope_identity()	
+Parameters:
+@Name1[String] = KKKK
+
+
+-----------------------------------------------------------------------------
